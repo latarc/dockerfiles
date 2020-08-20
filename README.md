@@ -2,4 +2,5 @@
 
 LaTARC Research Lab's Dockerfiles repository
 
-Disclaimer: These Dockerfiles are not official.
+Disclaimer 1: These Dockerfiles are not official.
+Disclaimer 2: We do not guarantee support for the Dockerfiles in this repository.
