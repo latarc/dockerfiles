@@ -4,10 +4,10 @@ This is a docker image for the [Ryu SDN Framework](https://github.com/faucetsdn/
 
 ## Commands
 
-  - Docker pull: 
+- Docker pull:
 `docker pull iwaseyusuke/mininet`
 
-  - Docker run:
+- Docker run:
 `docker run -it --rm latarc/ryu`
 
 ## Default CMD
