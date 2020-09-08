@@ -6,6 +6,7 @@ RUN wget https://repo1.maven.org/maven2/org/onosproject/onos-releases/2.4.0/onos
 RUN tar -C /opt -xzf onos-2.4.0.tar.gz
 RUN rm onos-2.4.0.tar.gz
 RUN mv /opt/onos-2.4.0 /opt/onos
+RUN touch /opt/onos/apps/org.onosproject.openflow/active
 WORKDIR /opt/onos
 
 CMD bash /opt/onos/bin/onos-service start
